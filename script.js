@@ -289,7 +289,7 @@ function showToast(message, type = 'success') {
 
 // Copy Email Function
 function copyEmail() {
-  const email = 'engineer.portfolio@example.com';
+  const email = 'muhammadghifarimuzaki@gmail.com';
   navigator.clipboard.writeText(email).then(() => {
     const copyBtn = document.getElementById('copy-email-btn');
     if (copyBtn) {
@@ -366,8 +366,9 @@ function downloadCV(event) {
 
   // Create a structured downloadable CV manifest file
   const resumeContent = `=====================================================
-CURRICULUM VITAE - SOFTWARE ENGINEER
+CURRICULUM VITAE - MUHAMMAD GHIFARI MUZAKI
 =====================================================
+Nama: Muhammad Ghifari Muzaki
 Peran: Software Engineer & Full-Stack / Mobile Specialist
 Fokus: Clean Architecture, High Performance, Scalability & Automation
 
@@ -394,7 +395,7 @@ PROYEK UNGGULAN:
 
 KONTAK & MEDIA SOSIAL:
 -----------------------------------------------------
-Email: engineer.portfolio@example.com
+Email: muhammadghifarimuzaki@gmail.com
 GitHub: https://github.com
 LinkedIn: https://linkedin.com
 Status: Open for Full-Time / Contract / High-Impact Projects
@@ -404,7 +405,7 @@ Status: Open for Full-Time / Contract / High-Impact Projects
   const url = URL.createObjectURL(blob);
   const a = document.createElement('a');
   a.href = url;
-  a.download = 'Software_Engineer_CV_Resume.txt';
+  a.download = 'Muhammad_Ghifari_Muzaki_CV.txt';
   document.body.appendChild(a);
   a.click();
   document.body.removeChild(a);
