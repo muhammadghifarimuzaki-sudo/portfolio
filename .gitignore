@@ -1,0 +1,15 @@
+# Dependencies
+node_modules/
+.npm/
+
+# Environment and local settings
+.env
+.env.local
+
+# Vercel & Netlify build artifacts
+.vercel/
+.netlify/
+
+# OS metadata
+.DS_Store
+Thumbs.db
